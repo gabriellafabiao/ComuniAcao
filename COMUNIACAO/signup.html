@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/icone.png">
+    <link rel="stylesheet" href="/style/signup.css">
+    <title>Sing Up</title>
+</head>
+<body>
+    <div class="container">
+        <img src="/img/logo_horizontal.png" alt="logo_horizontal">
+        <div class="forms">
+            <label for="name" id="name-label">Nome</label>
+            <input type="name" id="name">
+            <label for="date" id="date-label">Data de nascimento</label>
+            <input type="date" id="date">
+            <label for="pronoun" id="pronoun-label">Como você se identifica?</label>
+            <select id="pronoun">
+                <option value="" disabled selected>Selecione</option>
+                <option value="ela/dela">ela/dela</option>
+                <option value="ele/dele">ele/dele</option>
+            </select>
+            <label for="email" id="email-label">E-mail</label>
+            <input type="email" id="email">
+            <label for="password" id="password-label">Senha</label>
+            <input type="password" id="password">
+            <button type="submit" onclick="saveUserData()">Entrar</button>
+        </div>
+    </div>
+    <script src="/script/signup.js"></script>
+</body>
+</html>
