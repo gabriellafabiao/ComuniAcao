@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/icone.png">
+    <link rel="stylesheet" href="/style/dashboard.css">
+    <title>Painel</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="barra">
+                <div class="barra-content">
+                    <h2></h2>
+                    <p>Vamos aprender a jogando?</p>
+                </div>
+                <div class="menu" id="menu-toggle">
+                    <div class="menu-bar"></div>
+                    <div class="menu-bar"></div>
+                    <div class="menu-bar"></div>
+                    <div class="menu-content" id="menu-content">
+                        <img src="img/logo_azul.png" alt="logo-azul" class="logo-azul">
+                        <span class="close-btn" id="close-menu">x</span>
+                        <a href="/shortly.html"><img src="/img/icones/1.png" alt="conta" class="conta">conta</a>
+                        <a href="/shortly.html"><img src="/img/icones/2.png" alt="pontuacao" class="pontuacao">Pontuação</a>
+                        <a href="/shortly.html"><img src="/img/icones/3.png" alt="ajuda" class="ajuda">Central de Ajuda</a>
+                        <hr>
+                        <h1>Aproex</h1>
+                        <a href="/shortly.html"><img src="/img/icones/4.png" alt="loja" class="loja">Loja e Doações</a>
+                        <a href="/agenda.html"><img src="/img/icones/5.png" alt="eventos" class="eventos">Agenda de Eventos</a>
+                        <a href="/shortly.html"><img src="/img/icones/6.png" alt="oficinas" class="oficinas">Oficinas</a>
+                        <hr>
+                        <a href="/shortly.html"><img src="/img/icones/7.png" alt="configuracoes" class="configuracoes">Configurações</a>
+                        <a href="/shortly.html"><img src="/img/icones/8.png" alt="indique" class="indique">Indique</a>
+                        <a href="/shortly.html"><img src="/img/icones/9.png" alt="sobre" class="sobre">Sobre</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>    
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"> <img src="/img/banner.png" alt="Slide 1"></div>
+            <div class="slide"> <img src="/img/banner-3.png" alt="Slide 2"></div>
+            <div class="slide"> <img src="/img/banner-2.png" alt="Slide 3"></div>
+        </div>
+        <div class="navigation-container">
+            <div class="text-container">
+                <h2>Conheça a APROEX</h2>
+            </div>
+            <div class="navigation">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+    <div class="games">
+        <a href="/shortly.html"><div class="quebra-cabeca">
+            <img src="/img/quebra-cabeca.png" alt="">
+            <h3>Quebra-Cabeça</h3>
+        </div></a>
+        <a href="/shortly.html"><div class="quiz">
+            <img src="/img/quiz.png" alt="">
+            <h3>Quiz</h3>
+        </div></a>
+        <a href="/shortly.html"><div class="abc">
+            <img src="/img/abc.png" alt="">
+            <h3>ABC</h3>
+        </div></a>
+    </div>
+    <div class="tom" onclick="toggleTom()">
+        <img src="/img/tom/fundo-tom.png" alt="fundo-tom" class="fundo-tom">
+        <img src="/img/tom/tom-painel.png" alt="tom" class="tom-painel">
+        <div class="texto-content">
+            <img src="/img/tom/texto.png" alt="texto">
+            <p>Olá, eu sou o Tom, e estou aqui para te ajudar!</p>
+        </div>
+    </div>
+    <script src="/script/dashboard.js"></script>
+</body>
+</html>
